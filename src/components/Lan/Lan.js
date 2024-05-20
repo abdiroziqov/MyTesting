@@ -1,0 +1,123 @@
+export const Lang = {
+    uz: {
+        homePage: {
+            LoginBtn: "Kirish",
+            HeroBtn: "Video yo'riqnoma",
+            aboutHeading1: "Stesting",
+            aboutHeading2: "loyihasi haqida",
+            aboutBtn: "Batafsil",
+            statistikPeople: "O`quvchilar",
+            statistikSchool: "Maktablar",
+            statistikAssignment: "Topshiriqlar",
+            researchHeading1: "So'nggi",
+            researchHeading3: "So'nggi Tadqiqotlar",
+            researchBtn: "Barcha Tadqiqotlar",
+            videoCourseHeading: "Videodarslar",
+            videoCourseDesc: "Foydalanuvchilarga qulaylik yaratish maqsadida Stesting loyihasida videodarsliklar ham joylashtirilgan",
+            videoCourseBtn: "Barcha videolar",
+        },
+        guide: {
+            guideHeading: "Yoʻriqnoma",
+            guideDesc: "Loyihada test topshirish boʻyicha qo‘llanma",
+        },
+        publications: {
+            publicationsInternational: "Xalqaro",
+            publicationsNational: "Milliy",
+            publicationsFilterHeading: "Barcha yo'nalishlar",
+            publicationsFilterAll: "Barchasi",
+        },
+        videocourse: {
+            videocourseHeading: "Videodarslar",
+            videocourseInternational: "O'quvchilar uchun",
+            videocourseNational: "O'qituvchilar uchun",
+        },
+        aboutus: {
+            aboutusHeading: "Stesting nima?",
+            aboutusDesc: "Biroz pastga suring va Stesting haqida batafsil ma’lumotga ega bo‘ling",
+        },
+    },
+    ru: {
+        homePage: {
+            LoginBtn: "Вход",
+            HeroBtn: "Видеоурок",
+            aboutHeading1: "O проекте",
+            aboutHeading2: "Stesting",
+            aboutBtn: "Подробно",
+            statistikPeople: "Ученики",
+            statistikSchool: "Школы",
+            statistikAssignment: "Задания",
+            researchHeading1: "Последние",
+            researchHeading2: "Исследования",
+            researchHeading3: "Последние Исследования",
+            researchBtn: "Все новости",
+            videoCourseHeading: "Видеоуроки",
+            videoCourseDesc: "Для удобства пользователей в проекте Stesting также размещены видеоуроки",
+            videoCourseBtn: "Все видеоуроки",
+        },
+        guide: {
+            guideHeading: "Инструкция",
+            guideDesc: "Инструкция по использованию платформы",
+        },
+        publications: {
+            publicationsHeading: "Публикации",
+            publicationsInternational: "Mеждународные",
+            publicationsNational: "Национальный",
+            publicationsFilterHeading: "Все направления",
+            publicationsFilterAll: "Все",
+        },
+        videocourse: {
+            videocourseHeading: "Видеоуроки",
+            videocourseInternational: "Для читателей",
+            videocourseNational: "Для учителей",
+        },
+        research: {
+            researchHeading: "Исследования",
+        },
+        aboutus: {
+            aboutusHeading: "Что такое Stesting?",
+            aboutusDesc: "Прокрутите немного вниз и узнайте больше",
+        },
+    },
+    en: {
+        homePage: {
+            LoginBtn: "Sign in",
+            HeroBtn: "Video tutorial",
+            aboutHeading1: "About the Stesting",
+            aboutHeading2: "project",
+            aboutBtn: "More",
+            statistikPeople: "Students",
+            statistikSchool: "Schools",
+            statistikAssignment: "Assignments",
+            researchHeading1: "Last",
+            researchHeading2: "Researches",
+            researchHeading3: "Last researches",
+            researchBtn: "All researches",
+            videoCourseHeading: "Video tutorials",
+            videoCourseDesc: "For the convenience of users, video footage is also posted on the Stesting project",
+            videoCourseBtn: "All tutorials",
+        },
+        guide: {
+            guideHeading: "Instructions",
+            guideDesc: "Platform user's guide",
+        },
+        publications: {
+            publicationsHeading: "Publications",
+            publicationsInternational: "International",
+            publicationsNational: "National",
+            publicationsFilterHeading: "All directions",
+            publicationsFilterAll: "All",
+        },
+        videocourse: {
+            videocourseHeading: "Video tutorials",
+            videocourseForStudents: "For students",
+            videocourseForTeachers: "For teachers",
+        },
+        research: {
+            researchHeading: "Researches",
+        },
+        aboutus: {
+            aboutusHeading: "What is Stesting, what is the purpose of it?",
+            aboutusDesc: "Scroll down to know more about the Stesting",
+        },
+    }
+}
