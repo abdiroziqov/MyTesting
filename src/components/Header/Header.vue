@@ -34,10 +34,18 @@
                 <!-- RESPONSIVE END -->
                 <nav class="sitenav">
                     <ul class="list">
-                        <li class="item" v-for="data in headerdata" :key="data.id">
-                            <router-link class="link text-black" :to="`/${$route.params.lan}/${data.url}`">{{ data.title
-                            }}</router-link>
-                        </li>
+                      <li class="item">
+                        <router-link class="link text-black" to="uz/guide">
+                          Yoʻriqnoma</router-link>
+                      </li>
+                      <li class="item">
+                        <router-link class="link text-black" to="uz/tutorials">
+                          Videodarslar</router-link>
+                      </li>
+                      <li class="item">
+                        <router-link class="link text-black" to="uz/about">
+                          MyTesting haqida</router-link>
+                      </li>
                     </ul>
                 </nav>
             </div>

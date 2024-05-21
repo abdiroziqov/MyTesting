@@ -2,11 +2,19 @@
     <section class="footer-bottom">
         <div class="container">
             <div class="footer-bottom__container mt-5 flex justify-center">
-                <ul class="list 2xl:flex xl:flex lg:flex md:hidden sm:hidden">
-                    <li class="item ms-5" v-for="data in headerdata" :key="data.id">
-                        <router-link class="link transition ease-in-out delay-100 hover:opacity-50" :to="`${data.url}`">{{
-                            data.title }}</router-link>
-                    </li>
+                <ul class="list 2xl:flex xl:flex lg:flex md:hidden sm:hidden gap-5">
+                  <li class="item">
+                    <router-link class="link text-black" to="uz/guide">
+                      Yoʻriqnoma</router-link>
+                  </li>
+                  <li class="item">
+                    <router-link class="link text-black" to="uz/tutorials">
+                      Videodarslar</router-link>
+                  </li>
+                  <li class="item">
+                    <router-link class="link text-black" to="uz/about">
+                      MyTesting haqida</router-link>
+                  </li>
                 </ul>
             </div>
             <hr class="mb-10 mt-5">

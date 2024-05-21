@@ -4,10 +4,7 @@
             <div class="hero__left">
                 <img class="absolute ms-20 hero__warp" src="https://stesting.uz/wrap1.png" alt="">
                 <h3 class="hero__heading relative z-2">{{ registrations.title }}</h3>
-                <p v-html="registrations.description" class="hero__desc opacity-75 mb-8 "></p>
-                <router-link class="hero__btn text-white" to="/uz/tutorials">
-                    Video yo'riqnoma
-                </router-link>
+                <p class="hero__desc opacity-75 mb-8">MyTesting – bu o‘quvchilarni xalqaro PISA, TIMSS, PIRLS tadqiqotlariga tayyorgarlik ko‘rishi uchun sinov platformasidir.</p>
             </div>
             <img class="hero__img" src="https://tsue.uicgroup.tech/img/tsue.webp" alt="" width="427" height="484">
         </div>
